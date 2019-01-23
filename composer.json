@@ -1,0 +1,20 @@
+{
+    "name": "hasnhasan/rest-api",
+    "description": "RestApiServer for Mysql",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Hasan Özsezgin",
+            "email": "hasan.ozsegin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.7.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "RestApi": "src/"
+        }
+    }
+}
